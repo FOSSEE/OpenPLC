@@ -14,7 +14,7 @@ Setting up the Ld micro executable
 
 To download the software on your Windows system, go to [#] `<http://cq.cx/ladder.pl/>`_ The download is a direct executable, there’s no need to install it.
 
-.. image:: Downloading-LD-Micro.png
+.. image:: ../images/Downloading-LD-Micro.png
    :height: 740px
    :width: 650px
    :scale: 150
