@@ -65,7 +65,7 @@ To download the software on your Windows system, go to [#] `<http://cq.cx/ladder
 .. image:: /images/Downloading-LD-Micro.png
    :height: 740px
    :width: 650px
-   :scale: 150
+   :scale: 100
 
 
 Getting started with Ld micro
