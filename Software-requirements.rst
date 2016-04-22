@@ -9,6 +9,54 @@ software helps produce the HEX files according to the microcontroller
 and the pin selected which can be directly dumped onto the
 core.
 
+For windows based system
+------------------------
+
+The IC is a standalone one without the Bootloader. One of the ways of
+dumping the code, is using an In System Programmer or an ISP. So, for burning the same we use the softwares: AVRDUDE1 - AVR Downloader Uploader is a program for downloading and uploading the on-chip memories of Atmels AVR microcontrollers. It can program the Flash and EEPROM, and where supported by the serial programming protocol, it can program fuse and lock bits. It’s available as WINAVR for Windows and can be downloaded from here [#] '<https://sourceforge.net/projects/winavr/files/WinAVR/20100110>'
+
+Setting up WINAVR
+~~~~~~~~~~~~~~~~~
+
+Step 1: First, open up the start screen and then search : Command Prompt
+
+.. image:: /images/Figcmd.png
+   :height: 540px
+   :width: 550px
+   :scale: 150
+
+Step 2: Then, a screen like this shall pop up.
+
+.. image:: /images/Comm.png
+   :height: 540px
+   :width: 550px
+   :scale: 150
+
+Step 3: Enter into the command prompt for windows: avrdude
+
+You should get prompts and flags mentioned like this, which implies that you have downloaded the software properly.
+
+.. image:: /images/avrdude1.png
+   :height: 540px
+   :width: 750px
+   :scale: 150
+
+For Linux based system
+~~~~~~~~~~~~~~~~~~~~~~
+
+Instead if you have Linux system, it’s already pre-installed under the
+name AVRDUDE. Just enter the below command line on your terminal
+
+**man avrdude**
+
+You would see a screen full of text, something like the one below. To
+exit press q. If you don’t get a screen like that, then open Ubuntu Software Center and on the search bar enter avrdude, then install it. Enter the same command into the terminal again and you shall see the manual.
+
+.. image:: /images/manavrdude.png
+   :height: 740px
+   :width: 650px
+   :scale: 150
+
 Setting up the Ld micro executable
 ----------------------------------
 
@@ -18,6 +66,7 @@ To download the software on your Windows system, go to [#] `<http://cq.cx/ladder
    :height: 740px
    :width: 650px
    :scale: 150
+
 
 Getting started with Ld micro
 -----------------------------
