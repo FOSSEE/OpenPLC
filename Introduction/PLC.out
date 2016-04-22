@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{Setting up the LD Micro executable}{}
+\BOOKMARK [1][-]{section.3}{Getting started with LDMicro}{}
+\BOOKMARK [2][-]{subsection.3.1}{Understanding the instructions}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Configuration of ATmega16A}{subsection.3.1}
+\BOOKMARK [2][-]{subsection.3.2}{Creating ladders using LD Micro}{section.3}
+\BOOKMARK [1][-]{section.4}{Programming the IC}{}
+\BOOKMARK [2][-]{subsection.4.1}{Installing WINAVR}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Setting up WINAVR on WINDOWS}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Identifying the Port of the programmer}{section.4}
+\BOOKMARK [2][-]{subsection.4.4}{USBASP as ISP}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Troubleshooting}{subsection.4.4}
+\BOOKMARK [2][-]{subsection.4.5}{RS232 as a Programmer}{section.4}
+\BOOKMARK [2][-]{subsection.4.6}{Programming using RS-232}{section.4}
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Troubleshooting}{subsection.4.6}
+\BOOKMARK [2][-]{subsection.4.7}{Setting up the fuse bits}{section.4}
+\BOOKMARK [1][-]{section.5}{Using UART function}{}
