@@ -13,7 +13,7 @@ the default settings, so as to generate the HEX code for your microcontroller.
 
 Under Settings tab, select the MCU Parameters Option
 
-.. image:: ../images/Setup.png
+.. image:: /images/Setup.png
    :height: 340px
    :width: 450px
    :scale: 150
@@ -21,7 +21,7 @@ Under Settings tab, select the MCU Parameters Option
 Then after selecting, change the clock frequency to 16MHz and if using
 UART change the baud rate to 9600.
 
-.. image:: cont.png
+.. image:: /images/cont.png
    :height: 540px
    :width: 650px
    :scale: 150
@@ -34,21 +34,21 @@ instructions that are in accordance with the Ladder logic followed for the PLCs 
 
 After selecting the appropriate instruction, just double click the instruction to edit the name of the variable and other parameters related to the particular instruction.
 
-.. image:: change.png
+.. image:: /images/change.png
    :height: 540px
    :width: 650px
    :scale: 150
 
 After making the appropriate ladder for the application, the digital input and outputs should be given an appropriate pin number of the controller and the connections should be done accordingly. This can be done by double clicking the appropriate pin to be configured in the consolidated table just below the ladder made.
 
-.. image:: PIN.png
+.. image:: /images/PIN.png
    :height: 540px
    :width: 600px
    :scale: 150
 
 Now that the logic is set, the ladder can be simulated to verify it’s working. This is done by clicking the Simulate tab and Simulation Mode option under it. This is then followed by a similar screen where Blue indicates LOW and Pink indicates HIGH. To start the simulation, under Simulate tab click Start Real-Time Simulation option. After this, to change the state, just double click the instruction. The appropriate changes and values pertaining to different variables can be seen in the consolidated instruction table under the State column. To come out of simulation mode, click the same Simulation Mode option.
 
-.. image:: states.png
+.. image:: /images/states.png
    :height: 340px
    :width: 450px
    :scale: 150
