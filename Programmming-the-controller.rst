@@ -74,13 +74,14 @@ Trouble shooting
 ~~~~~~~~~~~~~~~~
 
 - Check if the board is powered from the SMPS, if not, power it and try
-it once powered.
-- Check if all the essential flags in the command line are incorporated, if not make the appropriate changes.
+  it once powered.
+- Check if all the essential flags in the command line are incorporated, 
+  if not make the appropriate changes.
 - Check if the FRC cable of the USBASP is not stranded in the midway,
-if so, replace it.
+  if so, replace it.
 - If all these fail, check if the appropriate MOSI, MISO, SCK, RST and
-GND pins of the header are appropriately shorted with the ones of the IC
-and also that the controller firmly sits on the base.
+  GND pins of the header are appropriately shorted with the ones of the  
+  IC and also that the controller firmly sits on the base.
 
 These are the main errors you may get while programming the PLC.
 
