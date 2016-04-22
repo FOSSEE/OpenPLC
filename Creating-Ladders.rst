@@ -3,7 +3,7 @@ Creating Ladders using Ld micro
 
 LD Micro’s simple user interface is really easy to use and is self explanatory.To get started working with LD Micro, just double click the LD Micro executable present in your system. Once opened, you shall get such a GUI.
 
-.. image:: ld1.png
+.. image:: ../images/ld1.png
    :height: 540px
    :width: 750px
    :scale: 150
@@ -13,7 +13,7 @@ the default settings, so as to generate the HEX code for your microcontroller.
 
 Under Settings tab, select the MCU Parameters Option
 
-.. image:: Setup.png
+.. image:: ../images/Setup.png
    :height: 340px
    :width: 450px
    :scale: 150
