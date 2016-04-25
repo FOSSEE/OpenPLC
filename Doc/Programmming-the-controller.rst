@@ -25,7 +25,7 @@ Type the following command into the Terminal:
 
 Screen like below will pop up after giving the command line
 
-.. image:: /images/fuse1.png
+.. image:: ../images/fuse1.png
    :height: 540px
    :width: 450px
    :scale: 100
