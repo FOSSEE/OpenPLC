@@ -1,4 +1,4 @@
-update=Mon 09 Jan 2017 14:48:48 IST
+update=Wed 05 Apr 2017 12:17:26 IST
 version=1
 last_client=kicad
 [general]
@@ -73,11 +73,8 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-LibName33=kicad-library/libs/w_relay
-LibName34=Libraries/ULN2003
-LibName35=Libraries/stepper drivers
-LibName36=Libraries/relay
-LibName37=OpenPLC_Modular-rescue
-LibName38=Libraries/ULN2003AN
-LibName39=kicad-library/kicad-libs/test
-LibName40=kicad-library/kicad-libs/testpoint
+LibName33=Libraries/ULN2003
+LibName34=Libraries/stepper drivers
+LibName35=Libraries/relay
+LibName36=OpenPLC_Modular-rescue
+LibName37=Libraries/ULN2003AN
