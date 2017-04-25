@@ -25,14 +25,14 @@ Type the following command into the Terminal:
 
 Screen like below will pop up after giving the command line
 
-.. image:: Images/fuse1.png
+.. image:: OpenPLC/Images/fuse1.png
    :height: 540px
    :width: 450px
    :scale: 100
 
 You can read fust bits after setting up, as shown below, 
 
-.. image:: Images/fuse2.png
+.. image:: OpenPLC/Images/fuse2.png
    :height: 540px
    :width: 450px
    :scale: 100
@@ -62,7 +62,7 @@ below, which means that the process of erasing and writing the internal
 memory of the ATmega IC is in the process. On correct execution you shall
 get such a result. Whilst it’s burning the code, the red light on the USBASP will be lit showing that it is communicating with the controller appropriately.
 
-.. image:: Images/usb.png
+.. image:: OpenPLC/Images/usb.png
    :height: 540px
    :width: 450px
    :scale: 100
