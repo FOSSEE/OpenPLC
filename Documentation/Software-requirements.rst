@@ -20,14 +20,14 @@ Setting up WINAVR
 
 Step 1: First, open up the start screen and then search : Command Prompt
 
-.. image:: images/Figcmd.png
+.. image:: Images/Figcmd.png
    :height: 540px
    :width: 550px
    :scale: 150
 
 Step 2: Then, a screen like this shall pop up.
 
-.. image:: images/Comm.png
+.. image:: Images/Comm.png
    :height: 540px
    :width: 550px
    :scale: 150
@@ -36,7 +36,7 @@ Step 3: Enter into the command prompt for windows: avrdude
 
 You should get prompts and flags mentioned like this, which implies that you have downloaded the software properly.
 
-.. image:: images/avrdude1.png
+.. image:: Images/avrdude1.png
    :height: 440px
    :width: 650px
    :scale: 100
@@ -52,7 +52,7 @@ name AVRDUDE. Just enter the below command line on your terminal
 You would see a screen full of text, something like the one below. To
 exit press q. If you don’t get a screen like that, then open Ubuntu Software Center and on the search bar enter avrdude, then install it. Enter the same command into the terminal again and you shall see the manual.
 
-.. image:: images/manavrdude.png
+.. image:: Images/manavrdude.png
    :height: 540px
    :width: 450px
    :scale: 100
@@ -62,7 +62,7 @@ Setting up the Ld micro executable
 
 To download the software on your Windows system, go to [#] `<http://cq.cx/ladder.pl/>`_ The download is a direct executable, there’s no need to install it.
 
-.. image:: images/Downloading-LD-Micro.png
+.. image:: Images/Downloading-LD-Micro.png
    :height: 540px
    :width: 450px
    :scale: 100

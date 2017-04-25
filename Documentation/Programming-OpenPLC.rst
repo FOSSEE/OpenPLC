@@ -1,4 +1,4 @@
-Programming the Controller
+Programming the OpenPLC Board
 ==========================
 
 There are several programmers available to program any controller IC. They are called as ISPs. USBASP is one of them. Before programming the IC, we need to set the fuses. 
@@ -25,14 +25,14 @@ Type the following command into the Terminal:
 
 Screen like below will pop up after giving the command line
 
-.. image:: images/fuse1.png
+.. image:: Images/fuse1.png
    :height: 540px
    :width: 450px
    :scale: 100
 
 You can read fust bits after setting up, as shown below, 
 
-.. image:: images/fuse2.png
+.. image:: Images/fuse2.png
    :height: 540px
    :width: 450px
    :scale: 100
@@ -65,7 +65,7 @@ get such a result. Whilst it’s burning the code, the red light on the USBASP w
 Remember, after the fuses are set (covered in the following sections in
 detail), then the -B10 flag is necessary and can be deleted.
 
-.. image:: images/usb.png
+.. image:: Images/usb.png
    :height: 540px
    :width: 450px
    :scale: 100
