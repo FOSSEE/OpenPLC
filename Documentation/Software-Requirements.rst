@@ -1,4 +1,4 @@
-Software requirements
+Software Requirements
 =====================
 
 Many software support PLC simulation in various logics.
