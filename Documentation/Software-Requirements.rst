@@ -13,7 +13,7 @@ For windows based system
 ------------------------
 
 The IC is a standalone one without the Bootloader. One of the ways of
-dumping the code, is using an In System Programmer or an ISP. So, for burning the same we use the softwares: AVRDUDE1 - AVR Downloader Uploader is a program for downloading and uploading the on-chip memories of Atmels AVR microcontrollers. It can program the Flash and EEPROM, and where supported by the serial programming protocol, it can program fuse and lock bits. It’s available as WINAVR for Windows and can be downloaded from 'here <https://sourceforge.net/projects/winavr/files/WinAVR/20100110>'.
+dumping the code, is using an In System Programmer or an ISP. So, for burning the same we use the softwares: AVRDUDE1 - AVR Downloader Uploader is a program for downloading and uploading the on-chip memories of Atmels AVR microcontrollers. It can program the Flash and EEPROM, and where supported by the serial programming protocol, it can program fuse and lock bits. It’s available as WINAVR for Windows and can be downloaded from 'here <https://sourceforge.net/projects/winavr/files/WinAVR/20100110>'_.
 
 Setting up WINAVR
 ~~~~~~~~~~~~~~~~~
