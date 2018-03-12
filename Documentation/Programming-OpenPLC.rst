@@ -1,4 +1,4 @@
-Programming the Controller
+Programming the OpenPLC Board
 ==========================
 
 There are several programmers available to program any controller IC. They are called as ISPs. USBASP is one of them. Before programming the IC, we need to set the fuses. 
@@ -25,14 +25,14 @@ Type the following command into the Terminal:
 
 Screen like below will pop up after giving the command line
 
-.. image:: images/fuse1.png
+.. image:: ../Images/fuse1.png
    :height: 540px
    :width: 450px
    :scale: 100
 
 You can read fust bits after setting up, as shown below, 
 
-.. image:: images/fuse2.png
+.. image:: ../Images/fuse2.png
    :height: 540px
    :width: 450px
    :scale: 100
@@ -55,17 +55,14 @@ in which you have the saved HEX file to be dumped onto the processor.
 
 Step 5: Now, in the terminal, enter the following command.
 
-**sudo avrdude -p atmega16 -P usb -c usbasp -B10 -U flash:w:Blink.hex**
+**sudo avrdude -c usbasp -p m16-U flash:w:Blink.hex**
 
 You shall see such a process going on in the terminal like the one shown
 below, which means that the process of erasing and writing the internal
 memory of the ATmega IC is in the process. On correct execution you shall
 get such a result. Whilst it’s burning the code, the red light on the USBASP will be lit showing that it is communicating with the controller appropriately.
 
-Remember, after the fuses are set (covered in the following sections in
-detail), then the -B10 flag is necessary and can be deleted.
-
-.. image:: images/usb.png
+.. image:: ../Images/usb.png
    :height: 540px
    :width: 450px
    :scale: 100
