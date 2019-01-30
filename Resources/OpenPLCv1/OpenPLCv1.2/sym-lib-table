@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name OpenPLC_V2-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenPLC_V2-rescue.lib)(options "")(descr ""))
+  (lib (name OpenPLC_Kicad_Single_Strip_Unordered-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenPLC_Kicad_Single_Strip_Unordered-rescue.lib)(options "")(descr ""))
+  (lib (name OpenPLC_Kicad_Single_Strip-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenPLC_Kicad_Single_Strip-rescue.lib)(options "")(descr ""))
+  (lib (name OpenPLC_Kicad-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenPLC_Kicad-rescue.lib)(options "")(descr ""))
+  (lib (name OpenPLC_Modular-rescue)(type Legacy)(uri ${KIPRJMOD}/OpenPLC_Modular-rescue.lib)(options "")(descr ""))
+  (lib (name lm2596)(type Legacy)(uri ${KIPRJMOD}/Libraries/lm2596.lib)(options "")(descr "")(disabled))
+)
