@@ -221,34 +221,34 @@ Wire Wire Line
 $Comp
 L Device:R_US R1
 U 1 1 5C388E52
-P 4000 1150
-F 0 "R1" H 4068 1196 50  0000 L CNN
-F 1 "R_US" H 4068 1105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4040 1140 50  0001 C CNN
-F 3 "~" H 4000 1150 50  0001 C CNN
-	1    4000 1150
+P 4000 2500
+F 0 "R1" H 4068 2546 50  0000 L CNN
+F 1 "R_US" H 4068 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4040 2490 50  0001 C CNN
+F 3 "~" H 4000 2500 50  0001 C CNN
+	1    4000 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R2
 U 1 1 5C38A292
-P 5300 1150
-F 0 "R2" H 5368 1196 50  0000 L CNN
-F 1 "R_US" H 5368 1105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5340 1140 50  0001 C CNN
-F 3 "~" H 5300 1150 50  0001 C CNN
-	1    5300 1150
+P 5300 2500
+F 0 "R2" H 5368 2546 50  0000 L CNN
+F 1 "R_US" H 5368 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5340 2490 50  0001 C CNN
+F 3 "~" H 5300 2500 50  0001 C CNN
+	1    5300 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R3
 U 1 1 5C38A2F8
-P 6600 1150
-F 0 "R3" H 6668 1196 50  0000 L CNN
-F 1 "R_US" H 6668 1105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6640 1140 50  0001 C CNN
-F 3 "~" H 6600 1150 50  0001 C CNN
-	1    6600 1150
+P 6600 2500
+F 0 "R3" H 6668 2546 50  0000 L CNN
+F 1 "R_US" H 6668 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6640 2490 50  0001 C CNN
+F 3 "~" H 6600 2500 50  0001 C CNN
+	1    6600 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -285,23 +285,11 @@ F 3 "~" H 6600 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4000 1300 4000 1450
-Wire Wire Line
 	4000 1750 4000 1950
 Wire Wire Line
 	5300 1750 5300 1950
 Wire Wire Line
 	6600 1750 6600 1950
-Wire Wire Line
-	5300 1300 5300 1450
-Wire Wire Line
-	6600 1300 6600 1450
-Wire Wire Line
-	4000 1000 4000 800 
-Wire Wire Line
-	6600 800  6600 1000
-Wire Wire Line
-	5300 1000 5300 800 
 Wire Wire Line
 	4000 800  5300 800 
 Connection ~ 5300 800 
@@ -319,16 +307,8 @@ $EndComp
 Wire Wire Line
 	5300 700  5300 800 
 Wire Wire Line
-	4000 2350 4000 2800
-Wire Wire Line
 	4000 2800 5300 2800
-Wire Wire Line
-	6600 2800 6600 2350
-Wire Wire Line
-	5300 2350 5300 2800
 Connection ~ 5300 2800
-Wire Wire Line
-	5300 2800 6600 2800
 $Comp
 L power:GND #PWR0102
 U 1 1 5C38D31F
@@ -382,34 +362,34 @@ Wire Wire Line
 $Comp
 L Device:R_US R4
 U 1 1 5C390638
-P 7800 1150
-F 0 "R4" H 7868 1196 50  0000 L CNN
-F 1 "R_US" H 7868 1105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7840 1140 50  0001 C CNN
-F 3 "~" H 7800 1150 50  0001 C CNN
-	1    7800 1150
+P 7800 2500
+F 0 "R4" H 7868 2546 50  0000 L CNN
+F 1 "R_US" H 7868 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7840 2490 50  0001 C CNN
+F 3 "~" H 7800 2500 50  0001 C CNN
+	1    7800 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R5
 U 1 1 5C39063F
-P 9100 1150
-F 0 "R5" H 9168 1196 50  0000 L CNN
-F 1 "R_US" H 9168 1105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9140 1140 50  0001 C CNN
-F 3 "~" H 9100 1150 50  0001 C CNN
-	1    9100 1150
+P 9100 2500
+F 0 "R5" H 9168 2546 50  0000 L CNN
+F 1 "R_US" H 9168 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9140 2490 50  0001 C CNN
+F 3 "~" H 9100 2500 50  0001 C CNN
+	1    9100 2500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R6
 U 1 1 5C390646
-P 10400 1150
-F 0 "R6" H 10468 1196 50  0000 L CNN
-F 1 "R_US" H 10468 1105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 10440 1140 50  0001 C CNN
-F 3 "~" H 10400 1150 50  0001 C CNN
-	1    10400 1150
+P 10400 2500
+F 0 "R6" H 10468 2546 50  0000 L CNN
+F 1 "R_US" H 10468 2455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 10440 2490 50  0001 C CNN
+F 3 "~" H 10400 2500 50  0001 C CNN
+	1    10400 2500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -446,23 +426,11 @@ F 3 "~" H 10400 1600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7800 1300 7800 1450
-Wire Wire Line
 	7800 1750 7800 1950
 Wire Wire Line
 	9100 1750 9100 1950
 Wire Wire Line
 	10400 1750 10400 1950
-Wire Wire Line
-	9100 1300 9100 1450
-Wire Wire Line
-	10400 1300 10400 1450
-Wire Wire Line
-	7800 1000 7800 800 
-Wire Wire Line
-	10400 800  10400 1000
-Wire Wire Line
-	9100 1000 9100 800 
 Connection ~ 9100 800 
 Wire Wire Line
 	9100 800  10400 800 
@@ -479,12 +447,6 @@ F 3 "" H 9100 700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 700  9100 800 
-Wire Wire Line
-	7800 2350 7800 2800
-Wire Wire Line
-	10400 2800 10400 2350
-Wire Wire Line
-	9100 2350 9100 2800
 Wire Wire Line
 	9100 2800 9800 2800
 $Comp
@@ -503,12 +465,7 @@ Wire Wire Line
 Connection ~ 6600 800 
 Wire Wire Line
 	6600 800  7800 800 
-Wire Wire Line
-	7800 2800 6600 2800
-Connection ~ 6600 2800
 Connection ~ 9800 2800
-Wire Wire Line
-	9800 2800 10400 2800
 $Comp
 L Connector:Conn_01x12_Male J1
 U 1 1 5C396434
@@ -756,4 +713,35 @@ $EndComp
 Connection ~ 5300 3450
 Wire Wire Line
 	5300 3450 5500 3450
+Wire Wire Line
+	5300 2800 6600 2800
+Wire Wire Line
+	4000 800  4000 1450
+Wire Wire Line
+	4000 2650 4000 2800
+Wire Wire Line
+	5300 2800 5300 2650
+Wire Wire Line
+	5300 800  5300 1450
+Wire Wire Line
+	6600 800  6600 1450
+Wire Wire Line
+	6600 2650 6600 2800
+Connection ~ 6600 2800
+Wire Wire Line
+	6600 2800 7800 2800
+Wire Wire Line
+	7800 800  7800 1450
+Wire Wire Line
+	7800 2650 7800 2800
+Wire Wire Line
+	9100 800  9100 1450
+Wire Wire Line
+	10400 800  10400 1450
+Wire Wire Line
+	10400 2650 10400 2800
+Wire Wire Line
+	9800 2800 10400 2800
+Wire Wire Line
+	9100 2650 9100 2800
 $EndSCHEMATC
