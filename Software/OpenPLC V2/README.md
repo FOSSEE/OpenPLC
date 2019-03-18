@@ -2,7 +2,7 @@
 
 Version 2 hardware is built around a Raspberry Pi. [4diac](https://www.eclipse.org/4diac/) is the associated software and you may download it from here - [Link](https://www.eclipse.org/4diac/en_dow.php).
 
-Unlike *Version 1*, 4daic follows the [IEC 61499](https://en.wikipedia.org/wiki/IEC_61499) standard whereas the former follows **ladder logic** as defined in [IEC 6113-3](https://en.wikipedia.org/wiki/IEC_61131-3). Programs in *4daic* are written using **Function Blocks**, which is are event driven sub-programs with robust data encapsulation.
+Unlike *Version 1*, 4daic follows the [IEC 61499](https://en.wikipedia.org/wiki/IEC_61499) standard whereas the former follows **ladder logic** as defined in [IEC 6113-3](https://en.wikipedia.org/wiki/IEC_61131-3). Programs in *4daic* are written using **Function Blocks**, which are event driven sub-programs with robust data encapsulation.
 
 ## 4diac
 
