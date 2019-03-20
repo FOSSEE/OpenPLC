@@ -17,8 +17,6 @@ $EndDescr
 Wire Wire Line
 	2150 3550 2600 3550
 Wire Wire Line
-	2150 3650 2600 3650
-Wire Wire Line
 	2150 3750 2600 3750
 Wire Wire Line
 	2150 3850 2600 3850
@@ -36,34 +34,36 @@ Wire Wire Line
 	2150 4450 2600 4450
 Wire Wire Line
 	2150 4550 2600 4550
+Wire Wire Line
+	2150 4650 2600 4650
 Text Label 2300 3550 0    50   ~ 0
 GND
-Text Label 2350 3650 0    50   ~ 0
-s1
 Text Label 2350 3750 0    50   ~ 0
-s2
+s1
 Text Label 2350 3850 0    50   ~ 0
-s3
+s2
 Text Label 2350 3950 0    50   ~ 0
-s4
+s3
 Text Label 2350 4050 0    50   ~ 0
-s5
+s4
 Text Label 2350 4150 0    50   ~ 0
-s6
+s5
 Text Label 2350 4250 0    50   ~ 0
-s7
+s6
 Text Label 2350 4350 0    50   ~ 0
-s8
+s7
 Text Label 2350 4450 0    50   ~ 0
-s9
+s8
 Text Label 2350 4550 0    50   ~ 0
+s9
+Text Label 2350 4650 0    50   ~ 0
 s10
 $Comp
 L Connector:Conn_01x01_Female J2
 U 1 1 5C3723A2
 P 2800 3550
 F 0 "J2" H 2827 3576 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 3485 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 3500 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 3550 50  0001 C CNN
 F 3 "~" H 2800 3550 50  0001 C CNN
 	1    2800 3550
@@ -72,111 +72,111 @@ $EndComp
 $Comp
 L Connector:Conn_01x01_Female J3
 U 1 1 5C3723D4
-P 2800 3650
-F 0 "J3" H 2827 3676 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 3585 50  0000 L CNN
-F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 3650 50  0001 C CNN
-F 3 "~" H 2800 3650 50  0001 C CNN
-	1    2800 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 5C3723EA
 P 2800 3750
-F 0 "J4" H 2827 3776 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 3685 50  0000 L CNN
+F 0 "J3" H 2827 3776 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 3700 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 3750 50  0001 C CNN
 F 3 "~" H 2800 3750 50  0001 C CNN
 	1    2800 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J5
-U 1 1 5C372402
+L Connector:Conn_01x01_Female J4
+U 1 1 5C3723EA
 P 2800 3850
-F 0 "J5" H 2827 3876 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 3785 50  0000 L CNN
+F 0 "J4" H 2827 3876 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 3800 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 3850 50  0001 C CNN
 F 3 "~" H 2800 3850 50  0001 C CNN
 	1    2800 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 5C37241C
+L Connector:Conn_01x01_Female J5
+U 1 1 5C372402
 P 2800 3950
-F 0 "J6" H 2827 3976 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 3885 50  0000 L CNN
+F 0 "J5" H 2827 3976 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 3900 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 3950 50  0001 C CNN
 F 3 "~" H 2800 3950 50  0001 C CNN
 	1    2800 3950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J7
-U 1 1 5C372438
+L Connector:Conn_01x01_Female J6
+U 1 1 5C37241C
 P 2800 4050
-F 0 "J7" H 2827 4076 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 3985 50  0000 L CNN
+F 0 "J6" H 2827 4076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 4000 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 4050 50  0001 C CNN
 F 3 "~" H 2800 4050 50  0001 C CNN
 	1    2800 4050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J8
-U 1 1 5C372456
+L Connector:Conn_01x01_Female J7
+U 1 1 5C372438
 P 2800 4150
-F 0 "J8" H 2827 4176 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 4085 50  0000 L CNN
+F 0 "J7" H 2827 4176 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 4100 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 4150 50  0001 C CNN
 F 3 "~" H 2800 4150 50  0001 C CNN
 	1    2800 4150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J9
-U 1 1 5C372476
+L Connector:Conn_01x01_Female J8
+U 1 1 5C372456
 P 2800 4250
-F 0 "J9" H 2827 4276 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 4185 50  0000 L CNN
+F 0 "J8" H 2827 4276 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 4200 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 4250 50  0001 C CNN
 F 3 "~" H 2800 4250 50  0001 C CNN
 	1    2800 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J10
-U 1 1 5C372498
+L Connector:Conn_01x01_Female J9
+U 1 1 5C372476
 P 2800 4350
-F 0 "J10" H 2827 4376 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 4285 50  0000 L CNN
+F 0 "J9" H 2827 4376 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 4300 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 4350 50  0001 C CNN
 F 3 "~" H 2800 4350 50  0001 C CNN
 	1    2800 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J11
-U 1 1 5C3724BC
+L Connector:Conn_01x01_Female J10
+U 1 1 5C372498
 P 2800 4450
-F 0 "J11" H 2827 4476 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 4385 50  0000 L CNN
+F 0 "J10" H 2827 4476 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 4400 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 4450 50  0001 C CNN
 F 3 "~" H 2800 4450 50  0001 C CNN
 	1    2800 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01_Female J12
-U 1 1 5C3724E2
+L Connector:Conn_01x01_Female J11
+U 1 1 5C3724BC
 P 2800 4550
-F 0 "J12" H 2827 4576 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 2827 4485 50  0000 L CNN
+F 0 "J11" H 2827 4576 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 4500 50  0000 L CNN
 F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 4550 50  0001 C CNN
 F 3 "~" H 2800 4550 50  0001 C CNN
 	1    2800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J12
+U 1 1 5C3724E2
+P 2800 4650
+F 0 "J12" H 2827 4676 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3000 4600 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_SMD_5x10mm" H 2800 4650 50  0001 C CNN
+F 3 "~" H 2800 4650 50  0001 C CNN
+	1    2800 4650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -478,7 +478,7 @@ F 3 "~" H 1950 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 4650 2150 4650
+	2400 3650 2150 3650
 $Comp
 L Device:R_US R7
 U 1 1 5C397AB8
@@ -569,7 +569,7 @@ Wire Wire Line
 	9700 2150 9600 2150
 Text Label 9600 2150 0    50   ~ 0
 s10
-Text Label 2400 4650 0    50   ~ 0
+Text Label 2400 3650 0    50   ~ 0
 +5V
 $Comp
 L Device:R_US R13
