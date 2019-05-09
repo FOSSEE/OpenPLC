@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name dinkan)(type KiCad)(uri /home/easwaran/allProjects/kicad/openPlc_Rpi/MyLibrary)(options "")(descr ""))
+)
