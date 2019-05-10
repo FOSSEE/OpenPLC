@@ -1248,7 +1248,7 @@ L Connector:Screw_Terminal_01x04 J5
 U 1 1 5C4AA534
 P 7700 1800
 F 0 "J5" H 7619 1375 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" H 7619 1466 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 7619 1466 50  0001 C CNN
 F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-4pol" H 7700 1800 50  0001 C CNN
 F 3 "~" H 7700 1800 50  0001 C CNN
 	1    7700 1800
@@ -1258,8 +1258,8 @@ $Comp
 L Connector:Screw_Terminal_01x08 J6
 U 1 1 5C4AA7BC
 P 7700 2400
-F 0 "J6" H 7619 1775 50  0000 C CNN
-F 1 "Screw_Terminal_01x08" H 7619 1866 50  0000 C CNN
+F 0 "J6" H 7800 2150 50  0000 C CNN
+F 1 "Screw_Terminal_01x08" H 7619 1866 50  0001 C CNN
 F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-8pol" H 7700 2400 50  0001 C CNN
 F 3 "~" H 7700 2400 50  0001 C CNN
 	1    7700 2400
