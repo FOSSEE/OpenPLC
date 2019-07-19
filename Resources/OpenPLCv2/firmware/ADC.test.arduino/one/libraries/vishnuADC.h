@@ -65,7 +65,7 @@ class ADS1118 {
         union Config configRegister;        ///< Config register
 
         //Bit constants
-		const long int SCLK       = 4000000;///< ADS1118 SCLK frequency: 4000000 Hz Maximum for ADS1018 (4Mhz)
+		const long int SCLK       = 1000000;///< ADS1118 SCLK frequency: 4000000 Hz Maximum for ADS1018 (4Mhz)
 		
 		// Used by "SS" bit
 		const uint8_t START_NOW   = 1;      ///< Start of conversion in single-shot mode

@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.1.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.1.2)
 
   (general
     (thickness 1.6)
@@ -60,6 +60,7 @@
     (pad_to_mask_clearance 0.2)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
+    (grid_origin 102.4 72)
     (visible_elements FFFFDF7F)
     (pcbplotparams
       (layerselection 0x0f0f0_ffffffff)
@@ -267,6 +268,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/walter/conn_mkds/mkds_1,5-8.wrl
+      (offset (xyz 17.5 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Housings_DIP:DIP-40_W15.24mm_LongPads (layer F.Cu) (tedit 5857A8C9) (tstamp 5C4BBD3B)
@@ -376,6 +382,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Package_DIP.3dshapes/DIP-40_W15.24mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module IDC:IDC-Header_2x05_Pitch2.54mm_Straight (layer F.Cu) (tedit 59DE0611) (tstamp 5BEE844D)
@@ -442,6 +453,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5C49950D) (tstamp 5C4AD566)
@@ -493,6 +509,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-4pol (layer F.Cu) (tedit 59FF0755) (tstamp 5C4B0695)
@@ -536,6 +557,11 @@
       (net 3 5V))
     (model ${KISYS3DMOD}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS1.5-4pol.wrl
       (offset (xyz 7.50061988735199 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/walter/conn_mkds/mkds_1,5-4.wrl
+      (offset (xyz 7.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -607,6 +633,11 @@
       (net 4 "Net-(C7-Pad2)"))
     (pad 2 thru_hole circle (at 2.44094 0) (size 1.50114 1.50114) (drill 0.8001) (layers *.Cu *.Mask F.SilkS)
       (net 5 "Net-(C8-Pad2)"))
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Crystal.3dshapes/Crystal_HC49-U_Vertical.step
+      (offset (xyz -2.5 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-8pol (layer F.Cu) (tedit 59FF0755) (tstamp 5C45A52D)
@@ -669,6 +700,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/walter/conn_mkds/mkds_1,5-8.wrl
+      (offset (xyz 17.5 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED_0805 (layer F.Cu) (tedit 5862308C) (tstamp 5C497CB2)
@@ -709,6 +745,11 @@
     (pad 1 smd rect (at -1.04902 0 180) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 12 /TX))
     (model LEDs.3dshapes/LED_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -775,6 +816,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/walter/conn_mkds/mkds_1,5-8.wrl
+      (offset (xyz 17.5 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 5857A93F) (tstamp 5C49B4B5)
@@ -804,6 +850,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 584A5026) (tstamp 5C4BFB6E)
@@ -829,6 +880,11 @@
     (pad 2 smd rect (at 1 0) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C7-Pad2)"))
     (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -868,6 +924,11 @@
       (net 2 GND))
     (model ${KISYS3DMOD}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS1.5-2pol.wrl
       (offset (xyz 2.499359962463379 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/walter/conn_mkds/mkds_1,5-2.wrl
+      (offset (xyz 2.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -1022,6 +1083,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Capacitor_THT.3dshapes/C_Radial_D5.0mm_H7.0mm_P2.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal (layer F.Cu) (tedit 5921392F) (tstamp 5BEE6B89)
@@ -1063,6 +1129,11 @@
     (model ${KISYS3DMOD}/Diodes_THT.3dshapes/D_DO-41_SOD81_P10.16mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Diode_THT.3dshapes/D_DO-41_SOD81_P10.16mm_Horizontal.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1117,6 +1188,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5C4AA7AA) (tstamp 5C49A771)
@@ -1165,6 +1241,11 @@
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 26 /D7))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1228,6 +1309,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5C4990F6) (tstamp 5C4BFC16)
@@ -1278,6 +1364,11 @@
       (offset (xyz 0 -8.889999866485596 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1339,6 +1430,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO_SOT_Packages_THT:TO-220-3_Vertical (layer F.Cu) (tedit 58CE52AD) (tstamp 5BEE6D06)
@@ -1382,6 +1478,11 @@
     (model ${KISYS3DMOD}/TO_SOT_Packages_THT.3dshapes/TO-220-3_Vertical.wrl
       (offset (xyz 2.539999961853027 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1497,6 +1598,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x04_P2.54mm_Horizontal.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diodes_THT:D_DO-201AD_P15.24mm_Horizontal (layer F.Cu) (tedit 5C45A3A3) (tstamp 5BDFD3FA)
@@ -1538,6 +1644,11 @@
     (model ${KISYS3DMOD}/Diodes_THT.3dshapes/D_DO-201AD_P15.24mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Diode_THT.3dshapes/D_DO-201AD_P15.24mm_Horizontal.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1590,6 +1701,11 @@
       (offset (xyz 0 -8.889999866485596 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1707,6 +1823,11 @@
     (pad 2 smd rect (at -8.33 0 270) (size 4 3) (layers F.Cu F.Paste F.Mask)
       (net 1 12V))
     (model ${KISYS3DMOD}/Inductors_SMD.3dshapes/L_Fastron_PISR.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Inductor_SMD.3dshapes/L_Bourns_SDR1806.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1935,6 +2056,16 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Capacitor_THT.3dshapes/CP_Radial_D10.0mm_P5.00mm_P7.50mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Capacitor_THT.3dshapes/C_Radial_D10.0mm_H16.0mm_P5.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5AB24CF0)
@@ -1967,6 +2098,11 @@
     (pad 2 smd rect (at 0.95 0 180) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2029,7 +2165,12 @@
     (pad 8 thru_hole circle (at 35 0) (size 2.5 2.5) (drill 1.3) (layers *.Cu *.Mask)
       (net 8 /SCK))
     (model ${KISYS3DMOD}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS1.5-8pol.wrl
-      (offset (xyz 17.4998377371788 0 0))
+      (offset (xyz 17.4998 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/walter/conn_mkds/mkds_1,5-8.wrl
+      (offset (xyz 17.5 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2184,6 +2325,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Capacitor_THT.3dshapes/C_Radial_D5.0mm_H7.0mm_P2.00mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 584A5047) (tstamp 5833F31F)
@@ -2209,6 +2355,11 @@
     (pad 2 smd rect (at 1 0 180) (size 1 1.25) (layers F.Cu F.Paste F.Mask)
       (net 5 "Net-(C8-Pad2)"))
     (model Capacitors_SMD.3dshapes/C_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2245,6 +2396,11 @@
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 3 5V))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2293,6 +2449,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Diodes_THT:D_DO-201AD_P12.70mm_Horizontal (layer F.Cu) (tedit 5921392E) (tstamp 5BE065E2)
@@ -2334,6 +2495,11 @@
     (model ${KISYS3DMOD}/Diodes_THT.3dshapes/D_DO-201AD_P12.70mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 0.393701 0.393701 0.393701))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Diode_THT.3dshapes/D_DO-201AD_P12.70mm_Horizontal.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -2523,6 +2689,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Capacitor_THT.3dshapes/C_Radial_D8.0mm_H11.5mm_P3.50mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Buttons_Switches_SMD:SW_SPST_B3SL-1002P (layer F.Cu) (tedit 5857A8A5) (tstamp 5C4BD599)
@@ -2562,6 +2733,11 @@
       (net 7 /RST))
     (pad 2 smd rect (at -2.875 2 270) (size 2.75 1) (layers F.Cu F.Paste F.Mask)
       (net 7 /RST))
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Button_Switch_SMD.3dshapes/SW_SPST_PTS645.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module TO_SOT_Packages_THT:TO-220-5_Horizontal (layer F.Cu) (tedit 58CE5300) (tstamp 5BDFDC06)
@@ -2621,6 +2797,11 @@
       (scale (xyz 0.393701 0.393701 0.393701))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Package_TO_SOT_THT.3dshapes/TO-220-5_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Connectors_JST:JST_EH_B04B-EH-A_04x2.50mm_Straight (layer F.Cu) (tedit 5BE02404) (tstamp 5C45D34F)
@@ -2671,6 +2852,11 @@
     (pad 4 thru_hole circle (at 7.5 0) (size 1.85 1.85) (drill 0.9) (layers *.Cu *.Mask)
       (net 2 GND))
     (model Connectors_JST.3dshapes/JST_EH_B04B-EH-A_04x2.50mm_Straight.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2729,6 +2915,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm (layer F.Cu) (tedit 5C4AA79B) (tstamp 5C4BFEB4)
@@ -2777,6 +2968,11 @@
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 /SCK))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x08_Pitch2.54mm.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2835,6 +3031,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5C4ADA1C) (tstamp 5AB37B78)
@@ -2867,6 +3068,11 @@
     (pad 2 smd rect (at 0.95 0) (size 0.7 1.3) (layers F.Cu F.Paste F.Mask)
       (net 3 5V))
     (model ${KISYS3DMOD}/Resistors_SMD.3dshapes/R_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2925,6 +3131,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_JST.3dshapes/JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module LEDs:LED_0805 (layer F.Cu) (tedit 5862304E) (tstamp 5862309A)
@@ -2965,6 +3176,11 @@
     (pad 2 smd rect (at 1.04902 0 180) (size 1.19888 1.19888) (layers F.Cu F.Paste F.Mask)
       (net 14 "Net-(D36-Pad2)"))
     (model LEDs.3dshapes/LED_0805.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/easwaran/allProjects/kicad/kicad-packages3D/LED_SMD.3dshapes/LED_0805_2012Metric_Castellated.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

@@ -452,7 +452,7 @@ Wire Wire Line
 	4050 13550 4050 13500
 Wire Wire Line
 	4050 12850 4050 12900
-Text GLabel 6100 13750 2    50   Input ~ 0
+Text GLabel 5800 13750 2    50   Input ~ 0
 CS0
 $Comp
 L Device:R R1
@@ -1043,17 +1043,6 @@ Text Label 19900 8950 0    50   Italic 0
 7
 Text Label 19900 8100 0    50   Italic 0
 4
-$Comp
-L Connector:Screw_Terminal_01x05 J2
-U 1 1 5C2BFD43
-P 2800 5850
-F 0 "J2" H 2880 5800 50  0000 L CNN
-F 1 "Screw_Terminal_01x05" H 2880 5891 50  0001 L CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-5pol" H 2800 5850 50  0001 C CNN
-F 3 "~" H 2800 5850 50  0001 C CNN
-	1    2800 5850
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	12950 7150 13150 7150
 Wire Wire Line
@@ -1362,31 +1351,7 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20s
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 4950 3150 4950
-Wire Wire Line
-	3150 4950 3150 5650
-Wire Wire Line
-	3150 5650 3000 5650
-Wire Wire Line
-	3900 5500 3300 5500
-Wire Wire Line
-	3300 5500 3300 5750
-Wire Wire Line
-	3300 5750 3000 5750
-Wire Wire Line
-	3000 5850 3300 5850
-Wire Wire Line
-	3300 5850 3300 6050
-Wire Wire Line
-	3300 6050 3900 6050
-Wire Wire Line
 	3900 6600 3150 6600
-Wire Wire Line
-	3150 6600 3150 5950
-Wire Wire Line
-	3150 5950 3000 5950
-Text Label 3000 6050 0    50   ~ 0
-DIGND
 Wire Wire Line
 	4400 6950 4200 6950
 Connection ~ 4400 6950
@@ -1407,17 +1372,6 @@ Text Label 4200 6400 2    50   ~ 0
 DIGND
 Text Label 4200 6950 2    50   ~ 0
 DIGND
-$Comp
-L Connector:Screw_Terminal_01x05 J6
-U 1 1 5C83CB91
-P 2850 8300
-F 0 "J6" H 2930 8250 50  0000 L CNN
-F 1 "Screw_Terminal_01x05" H 2930 8341 50  0001 L CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MKDS1.5-5pol" H 2850 8300 50  0001 C CNN
-F 3 "~" H 2850 8300 50  0001 C CNN
-	1    2850 8300
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Device:R R25
 U 1 1 5C879247
@@ -1449,10 +1403,6 @@ Wire Wire Line
 Connection ~ 4400 7400
 Wire Wire Line
 	4400 7400 5050 7400
-Wire Wire Line
-	3050 8100 3150 8100
-Wire Wire Line
-	3150 8100 3150 7400
 Wire Wire Line
 	3150 7400 3900 7400
 $Comp
@@ -1510,24 +1460,6 @@ F 3 "~" H 4050 9050 50  0001 C CNN
 	1    4050 9050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3050 8200 3300 8200
-Wire Wire Line
-	3300 8200 3300 8000
-Wire Wire Line
-	3300 8000 3900 8000
-Wire Wire Line
-	3050 8300 3300 8300
-Wire Wire Line
-	3300 8300 3300 8500
-Wire Wire Line
-	3300 8500 3900 8500
-Wire Wire Line
-	3050 8400 3150 8400
-Wire Wire Line
-	3150 8400 3150 9050
-Wire Wire Line
-	3150 9050 3900 9050
 Wire Wire Line
 	4200 9050 4400 9050
 Wire Wire Line
@@ -1770,11 +1702,11 @@ Wire Wire Line
 	4800 12500 4800 13450
 Wire Wire Line
 	4800 13450 5000 13450
-Text GLabel 6100 13450 2    50   Input ~ 0
+Text GLabel 5800 13450 2    50   Input ~ 0
 SCK
-Text GLabel 6100 13550 2    50   Input ~ 0
+Text GLabel 5800 13550 2    50   Input ~ 0
 MOSI
-Text GLabel 6100 13650 2    50   Input ~ 0
+Text GLabel 5800 13650 2    50   Input ~ 0
 MISO
 Wire Wire Line
 	3800 13150 4050 13150
@@ -1823,7 +1755,7 @@ Text GLabel 11100 7650 0    50   Input ~ 0
 DI_6
 Text GLabel 11100 7550 0    50   Input ~ 0
 DI_7
-Text Label 3050 8500 0    50   ~ 0
+Text Label 2450 7050 0    50   ~ 0
 DIGND
 Text Label 4200 9400 2    50   ~ 0
 DIGND
@@ -3049,47 +2981,60 @@ F 3 "~" H 6650 13600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R46
-U 1 1 5CE3D7AA
-P 5950 13450
-F 0 "R46" V 5950 13450 50  0000 C CNN
-F 1 "50R" V 5950 13900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 13450 50  0001 C CNN
-F 3 "~" H 5950 13450 50  0001 C CNN
-	1    5950 13450
-	0    1    1    0   
+L Connector:Screw_Terminal_01x10 J14
+U 1 1 5CF5E806
+P 2250 7050
+F 0 "J14" H 2168 6325 50  0000 C CNN
+F 1 "Screw_Terminal_01x10" H 2168 6416 50  0000 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-10_1x10_P5.00mm_Horizontal" H 2250 7050 50  0001 C CNN
+F 3 "~" H 2250 7050 50  0001 C CNN
+	1    2250 7050
+	-1   0    0    1   
 $EndComp
-$Comp
-L Device:R R47
-U 1 1 5CF1F529
-P 5950 13550
-F 0 "R47" V 5950 13550 50  0000 C CNN
-F 1 "50R" V 5950 14000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 13550 50  0001 C CNN
-F 3 "~" H 5950 13550 50  0001 C CNN
-	1    5950 13550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R48
-U 1 1 5CF1F7ED
-P 5950 13650
-F 0 "R48" V 5950 13650 50  0000 C CNN
-F 1 "50R" V 5950 14100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 13650 50  0001 C CNN
-F 3 "~" H 5950 13650 50  0001 C CNN
-	1    5950 13650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R49
-U 1 1 5CF1FA26
-P 5950 13750
-F 0 "R49" V 5950 13750 50  0000 C CNN
-F 1 "50R" V 5950 14200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5880 13750 50  0001 C CNN
-F 3 "~" H 5950 13750 50  0001 C CNN
-	1    5950 13750
-	0    1    1    0   
-$EndComp
+Wire Wire Line
+	3050 8000 3900 8000
+Wire Wire Line
+	2900 8500 2900 7250
+Wire Wire Line
+	2900 7250 2450 7250
+Wire Wire Line
+	2900 8500 3900 8500
+Wire Wire Line
+	2750 9050 3900 9050
+Wire Wire Line
+	3050 6050 3050 6750
+Wire Wire Line
+	3050 6050 3900 6050
+Wire Wire Line
+	2900 5500 3900 5500
+Wire Wire Line
+	2750 4950 3900 4950
+Wire Wire Line
+	3150 7400 3150 7450
+Wire Wire Line
+	3150 7450 2450 7450
+Wire Wire Line
+	3050 8000 3050 7350
+Wire Wire Line
+	2450 7350 3050 7350
+Wire Wire Line
+	2750 9050 2750 7150
+Wire Wire Line
+	2750 7150 2450 7150
+Text Label 2450 6550 0    50   ~ 0
+DIGND
+Wire Wire Line
+	2750 6950 2450 6950
+Wire Wire Line
+	2750 4950 2750 6950
+Wire Wire Line
+	2900 6850 2450 6850
+Wire Wire Line
+	2900 5500 2900 6850
+Wire Wire Line
+	3050 6750 2450 6750
+Wire Wire Line
+	3150 6600 3150 6650
+Wire Wire Line
+	3150 6650 2450 6650
 $EndSCHEMATC
