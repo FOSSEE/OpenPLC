@@ -293,3 +293,5 @@ TSWLatexianTemp*
 # glossaries-extra
 *.ist
 
+# ide settings
+*.json
