@@ -37,8 +37,8 @@ As mentioned earlier, we are also providing a set of plug-and-play modules for p
 
 The two versions of PLCs uses two different software for programming.
 
-- LDMicro : A simple and intuitive LD programming IDE, used for programming *OpenPLC Version 1*. It is a forked and locally maintained version of [jwesthues's](https://github.com/LDmicro/LDmicro) software.
-- 4diac : A system, used for *OpenPLC version 2*, that consists of an IDE and a runtime environment for FBD programming and deployment. At present we directly use the [Eclipse 4diac](https://www.eclipse.org/4diac/) project with the Raspberry Pi work-flow.
+- [LDMicro](Software/OpenPLCV1_LDMicro/) : A simple and intuitive LD programming IDE, used for programming *OpenPLC Version 1*. It is a forked and locally maintained version of [Jonathan Westhues](https://github.com/LDmicro/LDmicro) software.
+- [4diac](https://www.eclipse.org/4diac/index.php) : A system, used for *OpenPLC version 2*, that consists of an IDE and a runtime environment for FBD programming and deployment. At present we directly use the [Eclipse 4diac](https://www.eclipse.org/4diac/) project with the Raspberry Pi work-flow.
  
 *Note : Detailed documentation regarding each of the above are present in the respective directories.*
 
