@@ -4,8 +4,8 @@
   - [What is OpenPLC?](#what-is-openplc)
   - [Our story](#our-story)
   - [Our solutions](#our-solutions)
-    - [**Hardware**](#hardware)
-    - [**Software**](#software)
+    - [Hardware](#hardware)
+    - [Software](#software)
 - [Community and contributing](#community-and-contributing)
   - [Forking and cloning](#forking-and-cloning)
 - [Directory Structure](#directory-structure)
@@ -21,7 +21,7 @@ Few years ago we came across the need for a affordable and functional PLC for ed
 
 ## Our solutions
 
-### **Hardware**
+### Hardware
 
 OpenPLC consists of **two** versions
 - OpenPLC Version 1 : Hardware based on AVR's [**ATmega16A**](https://www.microchip.com/wwwproducts/en/ATmega16) and programmed using **LD**
@@ -33,11 +33,11 @@ As mentioned earlier, we are also providing a set of plug-and-play modules for p
 - Switches : an array of *normally-open, normally-closed and latch* switches.
 - Simple traffic light.
 
-### **Software**
+### Software
 
 The two versions of PLCs uses two different software for programming.
 
-- LDMicro : A simple and intuitive LD programming IDE, used for programming *OpenPLC Version 1*. It is a forked and locally maintained version of [jwesthues's](https://github.com/LDmicro/LDmicro) version.
+- LDMicro : A simple and intuitive LD programming IDE, used for programming *OpenPLC Version 1*. It is a forked and locally maintained version of [jwesthues's](https://github.com/LDmicro/LDmicro) software.
 - 4diac : A system, used for *OpenPLC version 2*, that consists of an IDE and a runtime environment for FBD programming and deployment. At present we directly use the [Eclipse 4diac](https://www.eclipse.org/4diac/) project with the Raspberry Pi work-flow.
  
 *Note : Detailed documentation regarding each of the above are present in the respective directories.*
@@ -50,7 +50,7 @@ OpenPLC is developed by [FOSSEE](https://fossee.in/) and by users like you. We w
 
 The repository consists of a few [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To clone them along with this repo use the following command.
 
-`git clone --recurse-submodules -j8 https://github.com/VishnuEaswaran/OpenPLC_V2`
+`git clone --recurse-submodules -j8 https://github.com/VishnuEaswaran/OpenPLC.git`
 
 # Directory Structure
 
@@ -98,7 +98,7 @@ The OpenPLC setup is shown below:
 
 <!-- ![OpenPLC Version 1(early prototype)](/Images/openplc.png "OpenPLC Version 1") -->
 
-![OpenPLC Version 2](/Images/v2.jpg "OpenPLC Version 1")
+![OpenPLC Version 2](/Images/v2.jpg "OpenPLC Version 2")
 
 # Licence
 
