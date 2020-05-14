@@ -35,6 +35,22 @@ The two versions of PLCs uses two different software for programming.
 
 OpenPLC is developed by [FOSSEE](https://fossee.in/) and by users like you. We welcome both pull requests and issues on GitHub. How to and guides pertaining to both *software *and *hardware* can be found in the respective directories.
 
+# Directory Structure
+
+      .
+      ├── Documentation    # documentation for ladder diagrams
+      ├── Experiments      # some examples in LD
+      ├── Images           # images used in this README
+      ├── ladder-files     # some beginners ladder examples
+      ├── Resources        # hardware design directory
+      │   ├── modules      # designs of all modules
+      │   ├── OpenPLCv1    # design of Version 1 PLC
+      │   └── OpenPLCv2    # design of Version 2 PLC
+      └── Software         # Details on LDMicro and 4diac
+         ├── OpenPLC V1    # LDMicro
+         └── OpenPLC V2    # Eclipse 4diac
+
+
 <!-- A Programmable Logic Controller generally has a set of input and output ports to which the external peripherals are connected, which are
 to be electrically controlled by the PLC.
 Looking into the flow of working with the PLC, the processor tries to make decisions in accordance with the program, generally written by the user using some programming language is used to write the logic and program these units.
@@ -63,6 +79,10 @@ We have developed 4 different modules that goes along with the PLCs for performi
 
 The OpenPLC setup is shown below:
 
-![OpenPLC Version 1(early prototype)](/Images/openplc.png "OpenPLC Version 1")
+<!-- ![OpenPLC Version 1(early prototype)](/Images/openplc.png "OpenPLC Version 1") -->
 
 ![OpenPLC Version 2](/Images/v2.jpg "OpenPLC Version 1")
+
+# Licence
+
+OpenPLC is released under the MIT license. Some part of the software are released under other licences specified.
