@@ -1,5 +1,15 @@
 # Introduction
 
+- [Introduction](#introduction)
+  - [What is OpenPLC?](#what-is-openplc)
+  - [Our story](#our-story)
+  - [Our solutions](#our-solutions)
+    - [**Hardware**](#hardware)
+    - [**Software**](#software)
+- [Community and contributing](#community-and-contributing)
+- [Directory Structure](#directory-structure)
+- [Licence](#licence)
+
 ## What is OpenPLC?
 
 OpenPLC is an open source **P**rogrammable **L**ogic **C**ontroller(**PLC**). Our hardware/s are functionally PLCs that can be programmed using [Ladder Logic diagram (LD)](https://en.wikipedia.org/wiki/Ladder_logic), as well as [Function Block diagram (FBD)](https://en.wikipedia.org/wiki/Function_block_diagram). We have designed the systems for academic purpose and to enable effective learning of programming PLCs. For this reason, we are also providing a set of *modules* that supplement the PLCs, which can be used to perform experiments like *simple traffic light, elevator, conveyor belt etc.*
@@ -8,7 +18,7 @@ OpenPLC is an open source **P**rogrammable **L**ogic **C**ontroller(**PLC**). Ou
 
 Few years ago we came across the need for a affordable and functional PLC for educational purposes. Every year, a large number of students in our colleges are undergoing training in PLCs without proper hands-on experience. The sky-high cost of the setup is a reason, also is the high maintenance because of being used by students. Vendor specific tools and work-flow, which are often complex, is another hindrance.
 
-## Our solution
+## Our solutions
 
 ### **Hardware**
 
