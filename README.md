@@ -16,11 +16,11 @@ OpenPLC consists of **two** versions
 - OpenPLC Version 1 : Hardware based on AVR's [**ATmega16A**](https://www.microchip.com/wwwproducts/en/ATmega16) and programmed using **LD**
 - OpenPLC Version 2 : Hardware based on [**Raspberry Pi**](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) and programmed using **FBD**
 
-As mentioned earlier, we are also providing a set of plug-and-play modules for practicing a range of experiments. The current ones are
-- Elevator/Conveyor belt : COnsists of a motor, a motor driver that can be controlled.
-- Temperature Sensing and control
-- Switches : an array of various types of switches
-- SImple traffic light
+As mentioned earlier, we are also providing a set of plug-and-play modules for practising a range of experiments. The current ones are
+- Elevator/Conveyor belt : Consists of a timing bet, a motor and a motor driver that can be controlled.
+- Temperature Sensing and control.
+- Switches : an array of *normally-open, normally-closed and latch* switches.
+- Simple traffic light.
 
 ### **Software**
 
@@ -33,7 +33,7 @@ The two versions of PLCs uses two different software for programming.
 
 # Community and contributing
 
-OpenPLC is developed by [FOSSEE](https://fossee.in/) and by users like you. We welcome both pull requests and issues on GitHub. How to and guides pertaining to both *software *and *hardware* can be found in the respective directories.
+OpenPLC is developed by [FOSSEE](https://fossee.in/) and by users like you. We welcome both pull requests and issues on GitHub. How to and guides pertaining to both *software* and *hardware* can be found in the respective directories.
 
 # Directory Structure
 
