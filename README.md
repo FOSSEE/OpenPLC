@@ -7,6 +7,7 @@
     - [**Hardware**](#hardware)
     - [**Software**](#software)
 - [Community and contributing](#community-and-contributing)
+  - [Forking and cloning](#forking-and-cloning)
 - [Directory Structure](#directory-structure)
 - [Licence](#licence)
 
@@ -45,20 +46,26 @@ The two versions of PLCs uses two different software for programming.
 
 OpenPLC is developed by [FOSSEE](https://fossee.in/) and by users like you. We welcome both pull requests and issues on GitHub. How to and guides pertaining to both *software* and *hardware* can be found in the respective directories.
 
+## Forking and cloning
+
+The repository consists of a few [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To clone them along with this repo use the following command.
+
+`git clone --recurse-submodules -j8 https://github.com/VishnuEaswaran/OpenPLC_V2`
+
 # Directory Structure
 
       .
-      ├── Documentation    # documentation for ladder diagrams
-      ├── Experiments      # some examples in LD
-      ├── Images           # images used in this README
-      ├── ladder-files     # some beginners ladder examples
-      ├── Resources        # hardware design directory
-      │   ├── modules      # designs of all modules
-      │   ├── OpenPLCv1    # design of Version 1 PLC
-      │   └── OpenPLCv2    # design of Version 2 PLC
-      └── Software         # Details on LDMicro and 4diac
-         ├── OpenPLC V1    # LDMicro
-         └── OpenPLC V2    # Eclipse 4diac
+      ├── Documentation             # documentation for ladder diagrams
+      ├── Experiments               # some examples in LD
+      ├── Images                    # images used in this README
+      ├── ladder-files              # some beginners ladder examples
+      ├── Resources                 # hardware design directory
+      │   ├── modules               # designs of all modules (submodule)
+      │   ├── OpenPLCv1             # design of Version 1 PLC
+      │   └── OpenPLCv2             # design of Version 2 PLC (submodule)
+      └── Software                  # Details on LDMicro and 4diac
+         ├── OpenPLCV1_LDMicro      # LDMicro
+         └── OpenPLCV2_4diac        # Eclipse 4diac
 
 
 <!-- A Programmable Logic Controller generally has a set of input and output ports to which the external peripherals are connected, which are
