@@ -17,14 +17,14 @@ OpenPLC is an open source **P**rogrammable **L**ogic **C**ontroller(**PLC**). Ou
 
 ## Our story
 
-Few years ago we came across the need for a affordable and functional PLC for educational purposes. Every year, a large number of students in our colleges are undergoing training in PLCs without proper hands-on experience. The sky-high cost of the setup is a reason, also is the high maintenance because of being used by students. Vendor specific tools and work-flow, which are often complex, is another hindrance.
+Few years ago we came across the need for an affordable and functional PLC for educational purposes. Every year, a large number of students in our colleges are undergoing training in PLCs without proper hands-on experience. The sky-high cost of the setup is a reason, also is the high maintenance because of being used by students. Vendor specific tools and work-flow, which are often complex, is another hindrance.
 
 ## Our solutions
 
 ### Hardware
 
 OpenPLC consists of **two** versions
-- OpenPLC Version 1 : Hardware based on AVR's [**ATmega16A**](https://www.microchip.com/wwwproducts/en/ATmega16) and programmed using **LD**
+- OpenPLC Version 1 : Hardware based on AVR's [**ATmega16A**](https://www.microchip.com/wwwproducts/en/ATmega16A) and programmed using **LD**
 - OpenPLC Version 2 : Hardware based on [**Raspberry Pi**](https://www.raspberrypi.org/products/raspberry-pi-zero-w/) and programmed using **FBD**
 
 As mentioned earlier, we are also providing a set of plug-and-play modules for practising a range of experiments. The current ones are
@@ -42,6 +42,8 @@ The two versions of PLCs uses two different software for programming.
  
 *Note : Detailed documentation regarding each of the above are present in the respective directories.*
 
+___
+
 # Community and contributing
 
 OpenPLC is developed by [FOSSEE](https://fossee.in/) and by users like you. We welcome both pull requests and issues on GitHub. How to and guides pertaining to both *software* and *hardware* can be found in the respective directories.
@@ -51,6 +53,8 @@ OpenPLC is developed by [FOSSEE](https://fossee.in/) and by users like you. We w
 The repository consists of a few [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To clone them along with this repo use the following command.
 
 `git clone --recurse-submodules -j8 https://github.com/VishnuEaswaran/OpenPLC.git`
+
+___
 
 # Directory Structure
 
@@ -99,6 +103,8 @@ The OpenPLC setup is shown below:
 <!-- ![OpenPLC Version 1(early prototype)](/Images/openplc.png "OpenPLC Version 1") -->
 
 ![OpenPLC Version 2](/Images/v2.jpg "OpenPLC Version 2")
+
+___
 
 # Licence
 
