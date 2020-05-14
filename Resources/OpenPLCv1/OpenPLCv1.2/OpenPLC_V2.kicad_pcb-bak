@@ -1430,11 +1430,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.step
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
     (model /home/easwaran/allProjects/kicad/kicad-packages3D/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x12_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
