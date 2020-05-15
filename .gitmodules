@@ -1,6 +1,8 @@
 [submodule "Resources/modules"]
-	path = Resources/modules
-	url = https://github.com/VishnuEaswaran/openPLC_modules
+    path = Resources/modules
+    url = https://github.com/VishnuEaswaran/openPLC_modules
+    branch = master
 [submodule "Resources/OpenPLCv2"]
-	path = Resources/OpenPLCv2
-	url = https://github.com/VishnuEaswaran/OpenPLC_V2
+    path = Resources/OpenPLCv2
+    url = https://github.com/VishnuEaswaran/OpenPLC_V2
+    branch = working    
