@@ -1,8 +1,0 @@
-[submodule "Resources/openplc_v2"]
-	path = Resources/openplc_v2
-	url = https://github.com/FOSSEE/openplc_v2.git
-	branch = master
-[submodule "Resources/openplc_modules"]
-	path = Resources/openplc_modules
-	url = https://github.com/FOSSEE/openplc_modules.git
-	branch = master
