@@ -1,7 +1,7 @@
 Software Requirements
 =====================
 
-Many software support PLC simulation in various logics.
+Many software support PLC simulation in various logic.
 The software that has been used in the subsequent sections is
 LDMicro, that incorporates Ladder Logic, supporting
 many microcontrollers, along with the AVR's ATmega16A. This
@@ -13,21 +13,21 @@ For windows based system
 ------------------------
 
 The IC is a standalone one without the Bootloader. One of the ways of
-dumping the code, is using an In System Programmer or an ISP. So, for burning the same we use the softwares: AVRDUDE1 - AVR Downloader Uploader is a program for downloading and uploading the on-chip memories of Atmels AVR microcontrollers. It can program the Flash and EEPROM, and where supported by the serial programming protocol, it can program fuse and lock bits. It’s available as WINAVR for Windows and can be downloaded from 'here <https://sourceforge.net/projects/winavr/files/WinAVR/20100110>'_.
+dumping the code, is using an In System Programmer or an ISP. So, for burning the same we use the software: AVRDUDE1 - AVR Downloader Uploader is a program for downloading and uploading the on-chip memories of Atmels AVR microcontrollers. It can program the Flash and EEPROM, and where supported by the serial programming protocol, it can program fuse and lock bits. It’s available as WINAVR for Windows and can be downloaded from 'here <https://sourceforge.net/projects/winavr/files/WinAVR/20100110>'_.
 
 Setting up WINAVR
 ~~~~~~~~~~~~~~~~~
 
 Step 1: First, open up the start screen and then search : Command Prompt
 
-.. image:: ../Images/Figcmd.png
+.. image:: ../assets/Figcmd.png
    :height: 540px
    :width: 550px
    :scale: 150
 
 Step 2: Then, a screen like this shall pop up.
 
-.. image:: ../Images/Comm.png
+.. image:: ../assets/Comm.png
    :height: 540px
    :width: 550px
    :scale: 150
@@ -36,7 +36,7 @@ Step 3: Enter into the command prompt for windows: avrdude
 
 You should get prompts and flags mentioned like this, which implies that you have downloaded the software properly.
 
-.. image:: ../Images/avrdude1.png
+.. image:: ../assets/avrdude1.png
    :height: 440px
    :width: 650px
    :scale: 100
@@ -52,7 +52,7 @@ name AVRDUDE. Just enter the below command line on your terminal
 You would see a screen full of text, something like the one below. To
 exit press q. If you don’t get a screen like that, then open Ubuntu Software Center and on the search bar enter avrdude, then install it. Enter the same command into the terminal again and you shall see the manual.
 
-.. image:: ../Images/manavrdude.png
+.. image:: ../assets/manavrdude.png
    :height: 540px
    :width: 450px
    :scale: 100
@@ -62,7 +62,7 @@ Setting up the Ld micro executable
 
 To download the software on your Windows system, go to [#] `<http://cq.cx/ladder.pl/>`_ The download is a direct executable, there’s no need to install it.
 
-.. image::../Images/Downloading-LD-Micro.png
+.. image::../assets/Downloading-LD-Micro.png
    :height: 540px
    :width: 450px
    :scale: 100
@@ -77,12 +77,12 @@ we wish to program via its HEX codes generated, ATmega16A in this case. The nami
 
 [1] *Yvar* implies the component is connected to an input pin on the micro-controller, something like a push button that is user dependent. This generally works for the digital inputs, HIGH(+5V) or LOW(GND).
 
-[2] *Xvar* implies the component is connected to an output pin on the mi-crocontroller. This can be something like an LED or a Buzzer that is used to show the outputs. It’s generally used to display digital outputs, HIGH(+5V) or LOW(GND).
+[2] *Xvar* implies the component is connected to an output pin on the microcontroller. This can be something like an LED or a Buzzer that is used to show the outputs. It’s generally used to display digital outputs, HIGH(+5V) or LOW(GND).
 
 [3] *Tvar* implies, a timer. It can be a turn on, turn off or a retentive timer, just like the ones used in the actual PLCs.
 
 [4] *Cvar* implies a counter. The arguments in this are simple logical
-operands to decide the upper bound upto which the counter shall work.
+operands to decide the upper bound up to which the counter shall work.
 There are circular counter too, which count circularly, without any
 bound.
 
@@ -99,7 +99,7 @@ Things to remember are:
   ables associated with the timers, counters or input, output pins.
 - The variables are 16 bit signed decimals, so the variables can also
   be containing values that are negative pertaining to that range.  
-- As counters, timers in physical sense are internal in the    microcontroller,we can only assign the pins to the Xname, Yname and Aname objects and not others.
+- As counters, timers in physical sense are internal in the microcontroller, we can only assign the pins to the Xname, Yname and Aname objects and not others.
 
 Now that the basic ideas are clear, the use of certain instructions can be discussed.
 
@@ -118,14 +118,14 @@ normally open case, the contacts are open generally, which means, giving a high 
 
 [6] **Retentive timer** is used to keep track of the how much time the
 module under consideration has been true, it cumulates the total time,
-if the input has been on for atleast that much time, the output of the
-timer is true. It will always reamin true after this, hence it should be reset by using Reset instruction manually
+if the input has been on for at-least that much time, the output of the
+timer is true. It will always remain true after this, hence it should be reset by using Reset instruction manually
 
-[7] **Counter** is used to count upto the given value threshold.The count is changed as the input to the counter is made high. This is used as an up counter, down counter or a circular counter. The variables can be manipulated and be suited for the application
+[7] **Counter** is used to count up to the given value threshold.The count is changed as the input to the counter is made high. This is used as an up counter, down counter or a circular counter. The variables can be manipulated and be suited for the application
 
 [8] **Mov** is used to move any value, be it character or numeric into the variable named under destination.
 
-[9] **Arithmetic operands** are used to manipulate the variables values to suit the logic, they cn be used on any kind of variables like the counters variables.
+[9] **Arithmetic operands** are used to manipulate the variables values to suit the logic, they can be used on any kind of variables like the counters variables.
 
 These are the basic ones that are used. A detailed help for the more
 instructions and general guidelines is provided on the Manual of the

@@ -28,5 +28,5 @@ The code blinkin.ld illustrates above logic.
 switch on LED
 -------------
 
-We can control on/off LED by using an input to the PLC. The input switch is connnected to pin 1 and LED is connedted to the same pin 35.
+We can control on/off LED by using an input to the PLC. The input switch is connected to pin 1 and LED is connected to the same pin 35.
 The code for this experiment is switch-led.ld
