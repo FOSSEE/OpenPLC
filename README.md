@@ -1,3 +1,5 @@
+![Logo](https://openplc.fossee.in/sites/default/files/openplc_logo_0_0.png)
+
 # Introduction
 
 - [Introduction](#introduction)
