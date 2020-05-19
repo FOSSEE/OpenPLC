@@ -57,19 +57,13 @@ The repository consists of a few [git submodules](https://git-scm.com/book/en/v2
 ___
 
 # Directory Structure
-
       .
-      ├── Documentation             # documentation for ladder diagrams
-      ├── Experiments               # some examples in LD
-      ├── Images                    # images used in this README
-      ├── ladder-files              # some beginners ladder examples
-      ├── Resources                 # hardware design directory
-      │   ├── modules               # designs of all modules (submodule)
-      │   ├── OpenPLCv1             # design of Version 1 PLC
-      │   └── OpenPLCv2             # design of Version 2 PLC (submodule)
-      └── Software                  # Details on LDMicro and 4diac
-         ├── OpenPLCV1_LDMicro      # LDMicro
-         └── OpenPLCV2_4diac        # Eclipse 4diac
+      ├── OpenPLC_modules     # OpenPLC modules resources including designs
+      ├── OpenPLC_version_1   # OpenPLC version 1 resources including designs
+      ├── OpenPLC_version_2   # OpenPLC version 2 resources including designs
+      ├── LICENSE             # license
+      └── README.md           # this readme
+
 
 
 <!-- A Programmable Logic Controller generally has a set of input and output ports to which the external peripherals are connected, which are
@@ -102,7 +96,7 @@ The OpenPLC setup is shown below:
 
 <!-- ![OpenPLC Version 1(early prototype)](/Images/openplc.png "OpenPLC Version 1") -->
 
-![OpenPLC Version 2](/Images/v2.jpg "OpenPLC Version 2")
+![OpenPLC Version 2](/assets/v2.jpg "OpenPLC Version 2")
 
 ___
 
