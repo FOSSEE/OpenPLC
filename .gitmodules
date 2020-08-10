@@ -1,0 +1,16 @@
+[submodule "OpenPLC_version_2/hardware"]
+	path = OpenPLC_version_2/hardware
+	url = https://github.com/FOSSEE/openplc_v2.git
+	branch = master
+[submodule "OpenPLC_modules/hardware"]
+	path = OpenPLC_modules/hardware
+	url = https://github.com/FOSSEE/openplc_modules.git
+	branch = master
+[submodule "OpenPLC_version_1/software/ldmicro_qt"]
+	path = OpenPLC_version_1/software/ldmicro_qt
+	url = https://github.com/FOSSEE/LDmicroQt.git
+	branch = master
+[submodule "OpenPLC_version_1/software/ldmicro_gtk"]
+	path = OpenPLC_version_1/software/ldmicro_gtk
+	url = https://github.com/FOSSEE/LDMicroGtk.git
+	branch = master
