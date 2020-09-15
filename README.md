@@ -54,7 +54,7 @@ OpenPLC is developed by [FOSSEE](https://fossee.in/) and by users like you. We w
 
 The repository consists of a few [git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules). To clone them along with this repo use the following command.
 
-`git clone --recurse-submodules -j8 https://github.com/VishnuEaswaran/OpenPLC.git`
+`git clone --recurse-submodules -j8 https://github.com/FOSSEE/OpenPLC.git'
 
 ___
 
