@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Pin_Header_2)(type KiCad)(uri ${KIPRJMOD}/Pin_Headers.pretty-master)(options "")(descr "")(disabled))
-  (lib (name IDC)(type KiCad)(uri ${KIPRJMOD}/Connectors_IDC.pretty-master)(options "")(descr ""))
-)
